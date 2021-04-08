@@ -1,0 +1,78 @@
+body {}
+
+h6 {
+    font-size: 10px;
+}
+
+.chip {
+    width: 25;
+    height: 25;
+    background-color: yellow;
+}
+
+.numSe {
+    font-weight: 400;
+    font-size: 20;
+    letter-spacing: .1rem;
+    color: rgba(177, 174, 174, 0.753);
+}
+
+.textBot {
+    color: rgb(201, 200, 200);
+    font-size: 10;
+}
+
+.card-body {
+    padding: .8rem!important;
+    border-radius: 10px;
+    background: linear-gradient(to left top, #0f2027, #203a43, #2c5364);
+}
+
+.in-out {
+    background-image: yellow;
+    box-sizing: border-box;
+    border: 2px solid rgba(194, 194, 194, 0.747);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.transac {
+    background-image: yellow;
+    box-sizing: border-box;
+    padding: 18px;
+    border: 2px solid rgba(194, 194, 194, 0.747);
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1.05rem 0 rgba(0, 0, 4, 0.005), 0 6px 20px 0 rgba(0, 0, 0, 0.1)
+}
+
+.border-in-out {
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.text-tran {
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: steelblue;
+    font-weight: 600;
+    padding: 1px 6px 1px 6px;
+    margin-bottom: .2rem;
+}
+
+.top-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 5px 0px;
+}
+
+.bot-card {
+    display: flex;
+    justify-content: space-between;
+}
